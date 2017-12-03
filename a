@@ -1,0 +1,16 @@
+<?php
+// content : 앙기목띠
+use \kakao\Msg;
+use \kakao\Msg\Message;
+use \kakao\Keyboard;
+
+echo new Msg(
+        new Message(
+                "앙기모띠",
+                NULL,
+                array(
+                        "앙기모띠"
+                        "http://youtube.com"
+                )
+        ),
+        TRUE
